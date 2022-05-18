@@ -29,7 +29,7 @@ public String ultimaOperacion;
        
    
            GestorE elEstudiante = this.crearEstudiante(nombre,codigo);
-           GestorC n = new GestorC(elEstudiante,num1,num2,num3,num4);
+           GestorC n = new GestorC(nombre, codigo ,num1,num2,num3,num4);
            //c.modificaElPaciente(elPaciente);
            //c.modificaFecha(fecha);
            //c.modificaOpcion(opcion);

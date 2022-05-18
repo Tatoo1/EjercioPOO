@@ -20,14 +20,14 @@ public class GestorC implements Serializable {
     private  double elnum2;
     private  double elnum3;
     private  double elnum4;
-    private GestorE elEstudiante;
-    private String codigo;
+    private String elNombre;
+    private String elCodigo;
  
 
 
-    public GestorC(GestorE elEstudiante,double num1, double num2, double num3, double num4) {
-        this.elEstudiante = elEstudiante;
-        this.codigo = elEstudiante.obtenerCodigo();
+    public GestorC(String nombre, String codigo, double num1, double num2, double num3, double num4) {
+        this.elNombre = nombre;
+        this.elCodigo = codigo;
         this.elnum1 = num1;
         this.elnum2 = num2;
         this.elnum3 = num3;
@@ -40,10 +40,14 @@ public class GestorC implements Serializable {
     }
 
     public GestorC(double num1, double num2, double num3, double num4) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+       this.elnum1 = num1;
+        this.elnum2 = num2;
+        this.elnum3 = num3;
+        this.elnum4 = num4;
+        this.larespuesta = ((num1*0.25)+(num2*0.35)+(num3*0.15)+(num4*0.25));
     }
-     public GestorE obtenerEstudiante(){
-        return this.elEstudiante;
+     public String obtenerEstudiante(){
+        return this.elNombre;
     }
      public double obtenerNota1(){
         return this.elnum1;
@@ -62,11 +66,11 @@ public class GestorC implements Serializable {
     }
 
     public String getCodigo() {
-        return codigo;
+        return elCodigo;
     }
      @Override
     public String toString() {
-        return ""+this.elEstudiante+"\nTiene como nota final:    "+larespuesta;
+        return ""+this.elNombre+"\nTiene como nota final:    "+larespuesta;
     }
 
 }
