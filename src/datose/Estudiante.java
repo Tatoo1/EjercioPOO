@@ -3,7 +3,6 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package datose;
-import datose.GestorC;
 import java.io.Serializable;
 
 
@@ -11,7 +10,7 @@ import java.io.Serializable;
  *
  * @author JuanR
  */
-public class GestorE implements Serializable {
+public class Estudiante implements Serializable {
    
     private String nombreEs;
     private String codigoEs;

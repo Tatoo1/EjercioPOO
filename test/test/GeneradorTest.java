@@ -6,7 +6,7 @@ package test;
 
 
 
-import datose.GestorC;
+import datose.Calificaciones;
 import logica.Generador;
 import org.junit.Test;
 import static org.junit.Assert.*;

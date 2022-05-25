@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="DESKTOP-8U3N3DV" name="test.TestGestorArc" skipped="0" tests="5" time="0.135" timestamp="2022-05-24T21:55:32">
+<testsuite errors="1" failures="0" hostname="DESKTOP-8U3N3DV" name="test.GeneradorTest" skipped="0" tests="1" time="0.085" timestamp="2022-05-24T21:55:44">
   <properties>
     <property name="libs.spring-framework300.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\platform\modules\org-apache-commons-logging.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\cglib-2.2.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-3.0\spring-aop-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-3.0\spring-aspects-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-3.0\spring-beans-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-3.0\spring-context-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-3.0\spring-context-support-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-3.0\spring-core-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-3.0\spring-expression-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-3.0\spring-instrument-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-3.0\spring-instrument-tomcat-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-3.0\spring-jdbc-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-3.0\spring-jms-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-3.0\spring-orm-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-3.0\spring-oxm-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-3.0\spring-struts-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-3.0\spring-test-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-3.0\spring-tx-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-3.0\spring-web-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-3.0\spring-webmvc-3.2.18.RELEASE.jar;C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\spring-3.0\spring-webmvc-portlet-3.2.18.RELEASE.jar" />
     <property name="javac.test.classpath" value="C:/Users/juanr/OneDrive/Documentos/Juan Ramirez/Universidad/Trabajos/Orientada/Proyecto Juan David/junit_4/junit-4.13.2.jar:GestorArchivos (1).jar:build/classes:C:/Users/juanr/OneDrive/Documentos/Juan Ramirez/Universidad/Trabajos/Orientada/Proyecto Juan David/junit_4/junit-4.13.2.jar:C:/Users/juanr/OneDrive/Documentos/Juan Ramirez/Universidad/Trabajos/Orientada/Proyecto Juan David/hamcrest/hamcrest-core-1.3.jar" />
@@ -18,7 +18,7 @@
     <property name="libs.eclipselink.javadoc" value="C:\Program Files\NetBeans-12.6\netbeans\java\modules\ext\docs\javax.persistence-2.2.1-doc.zip" />
     <property name="libs.JWSAntTasks.javadoc" value="" />
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.2\bin" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner test.TestGestorArc skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\juanr\OneDrive\Documentos\Juan Ramirez\Universidad\Trabajos\Orientada\Proyecto Juan David\build\test\results\TEST-test.TestGestorArc.xml crashfile=C:\Users\juanr\OneDrive\Documentos\Juan Ramirez\Universidad\Trabajos\Orientada\Proyecto Juan David\build\junitvmwatcher13226416284066486170.properties propsfile=C:\Users\juanr\OneDrive\Documentos\Juan Ramirez\Universidad\Trabajos\Orientada\Proyecto Juan David\build\junit2535862903605201599.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner test.GeneradorTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\juanr\OneDrive\Documentos\Juan Ramirez\Universidad\Trabajos\Orientada\Proyecto Juan David\build\test\results\TEST-test.GeneradorTest.xml crashfile=C:\Users\juanr\OneDrive\Documentos\Juan Ramirez\Universidad\Trabajos\Orientada\Proyecto Juan David\build\junitvmwatcher10484406529707552898.properties propsfile=C:\Users\juanr\OneDrive\Documentos\Juan Ramirez\Universidad\Trabajos\Orientada\Proyecto Juan David\build\junit6774087670569245459.properties" />
     <property name="jdk.debug" value="release" />
     <property name="ant.file.type.Proyecto" value="file" />
     <property name="libs.spring-framework300.src" value="" />
@@ -68,7 +68,7 @@
     <property name="jlink.additionalparam" value="" />
     <property name="libs.testng.maven-pom" value="" />
     <property name="org.openide.version" value="deprecated" />
-    <property name="test.includes" value="test/TestGestorArc.java" />
+    <property name="test.includes" value="test/GeneradorTest.java" />
     <property name="run.classpath" value="C:/Users/juanr/OneDrive/Documentos/Juan Ramirez/Universidad/Trabajos/Orientada/Proyecto Juan David/junit_4/junit-4.13.2.jar:GestorArchivos (1).jar:build/classes" />
     <property name="libs.jaxb.src" value="" />
     <property name="test.src.dir" value="test" />
@@ -213,7 +213,7 @@
     <property name="libs.jsp-compilation-syscp.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\extide\ant\lib\ant.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\servlet3.1-jsp2.3-api.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\glassfish-jspparser-4.0.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\jstl-impl.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\jsf-2_2\javax.faces.jar" />
     <property name="libs.jsp-compilation.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\extide\ant\lib\ant.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\servlet3.1-jsp2.3-api.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\glassfish-jspparser-4.0.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\jsf-2_2\javax.faces.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\jstl-api.jar;C:\Program Files\NetBeans-12.6\netbeans\extide\ant\lib\ant-launcher.jar" />
     <property name="libs.javaee-api-6.0.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\javaee-api-6.0.jar" />
-    <property name="javac.includesfile.binary" value="C:\Users\juanr\OneDrive\Documentos\Juan Ramirez\Universidad\Trabajos\Orientada\Proyecto Juan David\null1676886159" />
+    <property name="javac.includesfile.binary" value="C:\Users\juanr\OneDrive\Documentos\Juan Ramirez\Universidad\Trabajos\Orientada\Proyecto Juan David\null788126713" />
     <property name="libs.javaee-api-7.0.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\javaee-api-7.0.jar" />
     <property name="sun.cpu.isalist" value="amd64" />
     <property name="libs.restapi.maven-pom" value="" />
@@ -335,7 +335,7 @@
     <property name="netbeans.autoupdate.version" value="1.23" />
     <property name="empty.dir" value="C:\Users\juanr\OneDrive\Documentos\Juan Ramirez\Universidad\Trabajos\Orientada\Proyecto Juan David\build\empty" />
     <property name="netbeans.user" value="C:\Users\juanr\AppData\Roaming\NetBeans\12.6" />
-    <property name="javac.includes.binary" value="C:\Users\juanr\OneDrive\Documentos\Juan Ramirez\Universidad\Trabajos\Orientada\Proyecto Juan David\build\test\classes\test\TestGestorArc.class" />
+    <property name="javac.includes.binary" value="C:\Users\juanr\OneDrive\Documentos\Juan Ramirez\Universidad\Trabajos\Orientada\Proyecto Juan David\build\test\classes\test\GeneradorTest.class" />
     <property name="file.separator" value="\" />
     <property name="line.separator" value="&#xd;&#xa;" />
     <property name="javadoc.additionalparam" value="" />
@@ -372,7 +372,7 @@
     <property name="javac.modulepath" value="" />
     <property name="user.properties.file" value="C:\Users\juanr\AppData\Roaming\NetBeans\12.6\build.properties" />
     <property name="libs.javaee-api-6.0.src" value="" />
-    <property name="javac.includes" value="test/TestGestorArc.java" />
+    <property name="javac.includes" value="test/GeneradorTest.java" />
     <property name="netbeans.autoupdate.country" value="CO" />
     <property name="java.class.path" value="C:\Users\juanr\OneDrive\Documentos\Juan Ramirez\Universidad\Trabajos\Orientada\Proyecto Juan David\junit_4\junit-4.13.2.jar;C:\Users\juanr\OneDrive\Documentos\Juan Ramirez\Universidad\Trabajos\Orientada\Proyecto Juan David\GestorArchivos (1).jar;C:\Users\juanr\OneDrive\Documentos\Juan Ramirez\Universidad\Trabajos\Orientada\Proyecto Juan David\build\classes;C:\Users\juanr\OneDrive\Documentos\Juan Ramirez\Universidad\Trabajos\Orientada\Proyecto Juan David\hamcrest\hamcrest-core-1.3.jar;C:\Users\juanr\OneDrive\Documentos\Juan Ramirez\Universidad\Trabajos\Orientada\Proyecto Juan David\build\test\classes;C:\Program Files\NetBeans-12.6\netbeans\extide\ant\lib\ant-launcher.jar;C:\Program Files\NetBeans-12.6\netbeans\extide\ant\lib\ant.jar;C:\Program Files\NetBeans-12.6\netbeans\extide\ant\lib\ant-junit.jar;C:\Program Files\NetBeans-12.6\netbeans\extide\ant\lib\ant-junit4.jar" />
     <property name="libs.javaee-web-api-6.0.maven-pom" value="" />
@@ -426,7 +426,7 @@
     <property name="java.vm.version" value="17.0.2+8-LTS-86" />
     <property name="libs.metro.javadoc" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\docs\webservices-api-javadoc.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\docs\webservices-extra-javadoc.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\docs\webservices-extra-api-javadoc.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\docs\webservices-rt-javadoc.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\docs\webservices-tools-javadoc.jar" />
     <property name="libs.jakartaee-web-api-9.0.src" value="" />
-    <property name="test.class" value="test.TestGestorArc" />
+    <property name="test.class" value="test.GeneradorTest" />
     <property name="sun.awt.datatransfer.timeout" value="1000" />
     <property name="annotation.processing.run.all.processors" value="true" />
     <property name="libs.jsp-compiler.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\ant\extra\jspcompile.jar" />
@@ -435,77 +435,15 @@
     <property name="junit.forkmode" value="perTest" />
     <property name="libs.javaee-endorsed-api-6.0.classpath" value="C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\javaee6-endorsed\javax.annotation.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\javaee6-endorsed\jaxb-api-osgi.jar;C:\Program Files\NetBeans-12.6\netbeans\enterprise\modules\ext\javaee6-endorsed\webservices-api-osgi.jar" />
   </properties>
-  <testcase classname="test.TestGestorArc" name="guardarOk" time="0.041" />
-  <testcase classname="test.TestGestorArc" name="guardarNull2" time="0.0" />
-  <testcase classname="test.TestGestorArc" name="recuperarVacio" time="0.023" />
-  <testcase classname="test.TestGestorArc" name="guardarNull" time="0.0" />
-  <testcase classname="test.TestGestorArc" name="recuperarNotNull" time="0.004" />
-  <system-out><![CDATA[true
-true
-]]></system-out>
-  <system-err><![CDATA[may. 24, 2022 4:55:32 P. M. memoria.Memoria guardar
-SEVERE: null
-java.io.NotSerializableException: test.TestGestorArc
-	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1197)
-	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:354)
-	at memoria.Memoria.guardar(Memoria.java:31)
-	at test.TestGestorArc.guardarOk(TestGestorArc.java:32)
+  <testcase classname="test.GeneradorTest" name="crearEstudianteNull" time="0.016">
+    <error message="class java.lang.String cannot be cast to class java.util.Map (java.lang.String and java.util.Map are in module java.base of loader &apos;bootstrap&apos;)" type="java.lang.ClassCastException">java.lang.ClassCastException: class java.lang.String cannot be cast to class java.util.Map (java.lang.String and java.util.Map are in module java.base of loader &apos;bootstrap&apos;)
+	at logica.Generador.&lt;init&gt;(Generador.java:20)
+	at test.GeneradorTest.crearEstudianteNull(GeneradorTest.java:21)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:50)
-	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:534)
-	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1196)
-	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1041)
-
-may. 24, 2022 4:55:32 P. M. memoria.Memoria guardar
-SEVERE: null
-java.io.NotSerializableException: test.TestGestorArc
-	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1197)
-	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:354)
-	at memoria.Memoria.guardar(Memoria.java:31)
-	at test.TestGestorArc.recuperarVacio(TestGestorArc.java:43)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:50)
-	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:534)
-	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1196)
-	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1041)
-
-]]></system-err>
+</error>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -13,7 +13,7 @@ import java.io.Serializable;
  *
  * @author JuanR
  */
-public class GestorC implements Serializable {
+public class Calificaciones implements Serializable {
 
     private  double larespuesta;
     private  double elnum1;
@@ -25,7 +25,7 @@ public class GestorC implements Serializable {
  
 
 
-    public GestorC(String nombre, String codigo, double num1, double num2, double num3, double num4) {
+    public Calificaciones(String nombre, String codigo, double num1, double num2, double num3, double num4) {
         this.elNombre = nombre;
         this.elCodigo = codigo;
         this.elnum1 = num1;
@@ -35,11 +35,11 @@ public class GestorC implements Serializable {
         this.larespuesta = ((num1*0.25)+(num2*0.35)+(num3*0.15)+(num4*0.25));
     }
 
-    public GestorC() {
+    public Calificaciones() {
         
     }
 
-    public GestorC(double num1, double num2, double num3, double num4) {
+    public Calificaciones(double num1, double num2, double num3, double num4) {
        this.elnum1 = num1;
         this.elnum2 = num2;
         this.elnum3 = num3;
@@ -72,6 +72,8 @@ public class GestorC implements Serializable {
     public String toString() {
         return ""+this.elNombre+"\nTiene como nota final:    "+larespuesta;
     }
+
+    
 
 }
 
